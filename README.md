@@ -53,7 +53,7 @@ Os dez arquivos fotográficos fornecidos foram copiados sem retoque, alteração
 
 Use os botões de ampliação, anterior/próximo, comparação e fechamento. O teclado permite Escape e setas; o controle de comparação é acessível por teclado. Os menus e a galeria usam diálogos nativos com gerenciamento de foco. A preferência por movimento reduzido é respeitada.
 
-O favicon personalizado está em `app/icon.svg`. Nenhuma imagem OG, social card ou imagem de compartilhamento foi criada. O projeto não usa Sites.
+O favicon personalizado está em `app/icon.svg`. A imagem de compartilhamento fornecida pela solicitante está em `public/images/og-jamylle-coutinho.jpg`, comprimida em JPEG a 1200 × 630 px, preservando a composição inteira. Os metadados Open Graph e Twitter usam o mesmo arquivo. O projeto não usa Sites.
 
 ## Conferência
 

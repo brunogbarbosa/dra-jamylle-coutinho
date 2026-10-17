@@ -18,7 +18,7 @@ Conferência em Chromium, usando o build de produção local.
 | Teclado da galeria | Setas anterior/próximo, Escape e retorno de foco ao botão de abertura | Aprovado |
 | Contatos | Todos os links externos apontam ao WhatsApp 5585992225327 ou Instagram dra.jamyllecoutinho | Aprovado |
 | Favicon | SVG JC personalizado, resposta HTTP 200 | Aprovado |
-| Compartilhamento | Nenhuma imagem OG e nenhuma meta og:image | Aprovado |
+| Compartilhamento | Imagem fornecida, otimizada em JPEG a 1200 × 630 px (137.901 bytes); metadados Open Graph e Twitter e resposta HTTP 200 | Aprovado |
 | Navegador | Sem exceções de JavaScript e sem respostas de erro nos recursos carregados | Aprovado |
 
 Os dez arquivos fotográficos são cópias binárias dos anexos originais. A galeria usa os arquivos originais, sem otimização intermediária de imagem, e mantém todos os comparativos recebidos lado a lado. O texto informa que resultados são individuais. Os recortes de comparação respeitam a divisão de cada registro.

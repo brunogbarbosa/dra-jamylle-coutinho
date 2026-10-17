@@ -12,7 +12,28 @@ export const metadata: Metadata = {
   title: site.seo.title,
   description: site.seo.description,
   ...(site.seo.url ? { alternates: { canonical: '/' } } : {}),
-  openGraph: { title: site.seo.title, description: site.seo.description, locale: 'pt_BR', type: 'website' },
+  openGraph: {
+    title: site.seo.title,
+    description: site.seo.description,
+    locale: 'pt_BR',
+    type: 'website',
+    images: [{
+      url: '/images/og-jamylle-coutinho.jpg',
+      width: 1200,
+      height: 630,
+      type: 'image/jpeg',
+      alt: 'Dra. Jamylle Coutinho — Harmonização Facial e Método JC FULL.',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: site.seo.title,
+    description: site.seo.description,
+    images: [{
+      url: '/images/og-jamylle-coutinho.jpg',
+      alt: 'Dra. Jamylle Coutinho — Harmonização Facial e Método JC FULL.',
+    }],
+  },
 };
 export default function RootLayout({children}: Readonly<{children:React.ReactNode}>) {
   return <html lang="pt-BR"><body style={{
